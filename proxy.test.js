@@ -42,6 +42,6 @@ describe("proxy", () => {
       user.age = 70;
     });
 
-    expect(nextState.user.born.country).toEqual("US");
+    expect(nextState.user.born.country).toEqual("France");
   });
 });
