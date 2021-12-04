@@ -1,5 +1,5 @@
 const { toListItem, changeLinkedList } = require("./linkedlist");
-console.log("ci123456789012");
+console.log("ci1234567890123");
 
 const createProxy = (base, revokes, parentState = null, propName = null) => {
   const state = toListItem(base, parentState, propName);
